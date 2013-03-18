@@ -12,7 +12,7 @@ class DeployWikiPagesSpec extends FunSpec with ShouldMatchers {
     for (
       (f, n, r) ← WikiPages.WikiPagesTasks.deployWikiPages(
         file("src/test/wiki"),
-        "my/test/1.0",
+        "sbt-wikipages/test/1",
         "http://issuetrackerddit.afip.gov.ar/pruebas/login/jsonrpc",
         Seq(Credentials("Trac", "issuetrackerddit.afip.gov.ar", "pruebas", "pruebas")))
     ) {
