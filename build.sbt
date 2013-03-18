@@ -4,8 +4,6 @@ name := "sbt-wikipages-plugin"
 
 sbtPlugin := true
 
-scalaVersion := "2.9.1"
-
 resolvers += "Sonatype OSS Releases" at "http://oss.sonatype.org/content/repositories/releases/"
 
 libraryDependencies ++= Seq("dispatch-core", "json4s-jackson") map ("net.databinder.dispatch" %% _ % "0.9.5")
