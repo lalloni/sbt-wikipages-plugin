@@ -1,4 +1,4 @@
-package sbt.wikipages
+package plalloni.wikipages
 
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.FunSpec

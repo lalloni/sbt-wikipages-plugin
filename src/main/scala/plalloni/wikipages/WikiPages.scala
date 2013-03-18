@@ -1,4 +1,4 @@
-package sbt.wikipages
+package plalloni.wikipages
 
 import sbt.{ url ⇒ surl, _ }
 import Keys._
@@ -79,7 +79,7 @@ object WikiPages extends Plugin {
 
   }
 
-  override val settings = Seq (
+  val newSettings = Seq (
     wikiPages := file("src/wiki"),
     deployWikiPages <<=
       (WikiPagesKeys.wikiPages, WikiPagesKeys.wikiPagesBase, WikiPagesKeys.wikiPagesRpcUrl, credentials)
