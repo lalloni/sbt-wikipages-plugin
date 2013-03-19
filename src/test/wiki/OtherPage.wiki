@@ -1,5 +1,0 @@
-= Other Page =
-
-With some text on it and linking to:
-
- * [../Other/SubPage]

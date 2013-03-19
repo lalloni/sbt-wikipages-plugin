@@ -1,3 +1,0 @@
-= Sub Page =
-
-This is some sub page under Other name space.
