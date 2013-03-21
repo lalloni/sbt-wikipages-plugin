@@ -6,9 +6,9 @@ An sbt plugin for publishing wiki pages to any wiki system supporting WikiRPC pr
 How do I install it?
 ====================
 
-For now, only source code access is provided until we can have the binary published to Maven Central, fortunately sbt can use that quite easily by adding the sbt-wikipages-plugin project in the build project and set it as a dependency of the build project.
+For now, only source code access is provided until we can have (time to have) the binary published to Maven Central, fortunately sbt can use the source quite easily just by adding the plugin project in the build's build project and setting it as a dependency.
 
-If you don't have a build "full" build definition you'll have to create one by adding a ```project/project/build.scala``` file containing something like:
+If you don't have a "full" definition of the build's build you'll have to create one by adding a ```project/project/build.scala``` file containing something like:
 
 ```scala
 object BuildDef extends Build {
@@ -22,7 +22,7 @@ object BuildDef extends Build {
 }
 ```
 
-If you already have a build "full" build definition then you only need to add the missing parts from above.
+If you already have a such definition then you only need to add the missing parts from above.
 
 And that's it.
 
@@ -33,7 +33,7 @@ You'll need to add some settings to your project for configuring the plugin's be
 
 ### Import plugin default settings
 
-This imports plugin's default settings and tasks into your project.
+This will import plugin's default settings and tasks into your project.
 
 ```scala
 plalloni.wikipages.WikiPages.newSettings
