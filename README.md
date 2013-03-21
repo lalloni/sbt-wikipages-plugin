@@ -26,12 +26,12 @@ If you already have a such definition then you only need to add the missing part
 
 And that's it.
 
-Is there anything I need to setup?
+Is there anything else I need to setup?
 ==================================
 
-You'll need to add some settings to your project for configuring the plugin's behavior as follows:
+Of course, you'll need to add some settings to your project for configuring the plugin's behavior as follows:
 
-### Import plugin default settings
+### Import default settings
 
 This will import plugin's default settings and tasks into your project.
 
