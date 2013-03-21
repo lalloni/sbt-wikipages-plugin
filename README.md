@@ -1,7 +1,7 @@
 What?
 =====
 
-An sbt plugin for publishing wiki pages to any wiki system supporting WikiRPC protocol.
+An very simple SBT plugin for publishing wiki pages to any wiki system supporting WikiRPC protocol.
 
 How do I install it?
 ====================
